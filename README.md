@@ -12,7 +12,13 @@ life at our offices with not much more than whiteboards, sticky notes,
 sketchbooks, laptops, phones, computer code, and good old human
 connections.
 
-Further descriptions of the company can be found in `DESCRIPTION.md`.
+thoughtbot was founded in 2003 and has offices in Boston, San Francisco, New
+York City, Denver, Raleigh, Philadelphia, Austin, and Stockholm, Sweden.
+
+Further descriptions of the company can be found in
+[DESCRIPTION.md](DESCRIPTION.md).
+
+Our website is <http://thoughtbot.com>.
 
 Name
 ----
@@ -28,6 +34,8 @@ Logos
 
 Three directions for logos: horizontal, vertical, and circular. The
 circle logo lacks our name.
+
+[All logos and guidelines](logo/)
 
 Copyright
 ---------
