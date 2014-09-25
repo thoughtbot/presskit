@@ -1,0 +1,22 @@
+.page-wrap {
+  @include outer-container;
+}
+
+.nav-wrap {
+  @include span-columns(2 of 9);
+  padding-top: em(45);
+}
+
+.main-content-wrap {
+  @include span-columns(7 of 9);
+  @include shift(2);
+  float: none;
+}
+
+section {
+  margin-bottom: em(130);
+}
+
+.intro {
+  padding-top: em(50);
+}

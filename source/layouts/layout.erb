@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+    <title><%= current_page.data.title || "thoughtbot Brand Assets & Guidelines" %></title>
+
+    <%= stylesheet_link_tag "normalize", "all" %>
+
+    <script src="//use.typekit.net/gnk7llu.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  </head>
+
+  <body class="<%= page_classes %>">
+    <div class="page-wrap">
+      <%= yield %>
+    </div>
+    <%= javascript_include_tag  "all" %>
+  </body>
+</html>

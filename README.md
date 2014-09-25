@@ -1,2 +1,2 @@
-thoughtbot.github.com
+thoughtbot.github.io
 =====================

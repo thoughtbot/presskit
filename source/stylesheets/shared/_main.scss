@@ -1,0 +1,232 @@
+body {
+  border-top: solid em(8) $thoughtbot-red;
+  padding-top: em(130);
+}
+
+header {
+  @include clearfix;
+  margin-bottom: em(80);
+}
+
+nav {
+  a {
+    color: $medium-gray;
+    display: inline-block;
+    font-family: $header-font-family;
+    padding: em(10);
+    position: relative;
+    text-decoration: none;
+
+    &.active {
+      color: $thoughtbot-red;
+
+      &:before {
+        border-bottom: 8px solid transparent;
+        border-left: 8px solid $thoughtbot-red;
+        border-top: 8px solid transparent;
+        content: "";
+        height: 0;
+        left: em(-10);
+        position: absolute;
+        top: em(14);
+        width: 0;
+      }
+    }
+  }
+}
+
+h4 {
+  margin-top: em(50);
+}
+
+img {
+  margin-top: em(30);
+}
+
+.download-assets {
+  border-radius: em(5);
+  border: solid 1px $base-link-color;
+  display: inline-block;
+  font-family: $header-font-family;
+  margin-top: em(20);
+  padding: em(5) em(10) em(10);
+
+  &:hover {
+    color: $base-link-color;
+    opacity: 0.8;
+  }
+
+  &:before {
+    @include position(relative, em(6) null null null);
+    @include size(em(25) em(22));
+    background-image: image_url("download-icon.svg");
+    background-repeat: no-repeat;
+    background-size: 22px 25px;
+    content:"";
+    display: inline-block;
+    padding-right: em(5);
+    position: relative;
+  }
+}
+
+#signature {
+  display: block;
+
+  .sans-logotype,
+  .stacked-vertical {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .sans-logotype {
+    margin-right: em(130);
+  }
+}
+
+#usage-guidelines {
+  h3 {
+    text-transform: uppercase;
+
+    &:first-of-type {
+      color: $thoughtbot-red;
+    }
+
+    &:nth-of-type(2n) {
+      color: $light-green;
+    }
+  }
+}
+
+#colors {
+
+  .primary-color-container,
+  .secondary-color-container {
+    margin-top: em(50);
+
+    .color-specs {
+      display: inline-block;
+      vertical-align: top;
+
+      h4 {
+        margin: 0 0 em(20) em(20);
+      }
+    }
+  }
+
+  .primary-color-container {
+    .primary-color {
+      @include size(em(200) em(300));
+      background: $thoughtbot-red;
+      display: inline-block;
+    }
+
+    .opacity-shifts {
+      display: inline-block;
+      margin-left: em(-4);
+    }
+
+    .opacity-shift-1,
+    .opacity-shift-2,
+    .opacity-shift-3,
+    .opacity-shift-4,
+    .opacity-shift-5 {
+      @include size(em(60));
+    }
+
+    .opacity-shift-1 {
+      background: lighten($thoughtbot-red, 5);
+    }
+
+    .opacity-shift-2 {
+      background: lighten($thoughtbot-red, 10);
+    }
+
+    .opacity-shift-3 {
+      background: lighten($thoughtbot-red, 15);
+    }
+
+    .opacity-shift-4 {
+      background: lighten($thoughtbot-red, 20);
+    }
+
+    .opacity-shift-5 {
+      background: lighten($thoughtbot-red, 25);
+    }
+  }
+
+  .secondary-color-container {
+    .secondary-color {
+      @include size(em(200) em(300));
+      background: $thoughtbot-gray;
+      display: inline-block;
+    }
+
+    .opacity-shifts {
+      display: inline-block;
+      margin-left: em(-4);
+    }
+
+    .opacity-shift-1,
+    .opacity-shift-2,
+    .opacity-shift-3,
+    .opacity-shift-4,
+    .opacity-shift-5 {
+      @include size(em(60));
+    }
+
+    .opacity-shift-1 {
+      background: lighten($thoughtbot-gray, 5);
+    }
+
+    .opacity-shift-2 {
+      background: lighten($thoughtbot-gray, 10);
+    }
+
+    .opacity-shift-3 {
+      background: lighten($thoughtbot-gray, 15);
+    }
+
+    .opacity-shift-4 {
+      background: lighten($thoughtbot-gray, 20);
+    }
+
+    .opacity-shift-5 {
+      background: lighten($thoughtbot-gray, 25);
+    }
+  }
+
+}
+
+#typography {
+
+  h3 {
+    font-size: $base-font-size * 1.5;
+    line-height: $base-line-height;
+  }
+
+  .typeface-name {
+    margin: em(30) 0 em(10);
+  }
+
+  .uppercase,
+  .lowercase {
+    letter-spacing: em(5);
+  }
+
+  .uppercase {
+    text-transform: uppercase;
+  }
+
+  .header-typeface {
+    h3 {
+      font-weight: 500;
+    }
+  }
+
+  .body-typeface {
+    h3 {
+      font-family: $base-font-family;
+      font-weight: 500;
+    }
+  }
+}
