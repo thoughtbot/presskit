@@ -34,7 +34,7 @@ Brand Assets & Guidelines
 
 thoughtbot brand assets are available here. Please reference this guide whenever you use thoughtbot assets to ensure that they are used correctly.
 
-[Assets and Guidelines](http://thoughtbot.github.io)
+[Assets and Guidelines](http://thoughtbot.github.io/presskit)
 
 Copyright
 ---------
