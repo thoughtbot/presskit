@@ -29,13 +29,12 @@ including the beginning of a sentence.
 The legal company name in the US is "thoughtbot, inc.". The legal
 company name in Sweden is "Thoughtbot Filial".
 
-Logos
+Brand Assets & Guidelines
 -----
 
-Three directions for logos: horizontal, vertical, and circular. The
-circle logo lacks our name.
+thoughtbot brand assets are available here. Please reference this guide whenever you use thoughtbot assets to ensure that they are used correctly.
 
-[All logos and guidelines](logo/)
+[Assets and Guidelines](http://thoughtbot.github.io)
 
 Copyright
 ---------
