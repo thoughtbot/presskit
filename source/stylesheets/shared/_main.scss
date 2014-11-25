@@ -107,8 +107,10 @@ img {
       display: inline-block;
       vertical-align: top;
 
-      h4 {
-        margin: 0 0 em(20) em(20);
+      h3,
+      h4,
+      hr {
+        margin: 0 0 rem(20) rem(22);
       }
     }
   }
