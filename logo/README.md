@@ -8,9 +8,9 @@ Three directions for logos: horizontal, vertical, and circular. The circular log
 
 ##### Alternate
 
-* [PNG](vertical/png/vertical_alternative.png)
-* [SVG](vertical/svg/vertical_alternative.svg)
-* [EPS](vertical/eps/vertical_alternative.eps)
+* [PNG](horizontal/png/horizontal_alternative.png)
+* [SVG](horizontal/svg/horizontal_alternative.svg)
+* [EPS](horizontal/eps/horizontal_alternative.eps)
 
 ### Circular
 
