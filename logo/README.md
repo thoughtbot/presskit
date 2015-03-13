@@ -5,20 +5,32 @@ Three directions for logos: horizontal, vertical, and circular. The circular log
 ### Horizontal
 
 ![Default Horizontal thoughtbot logo](horizontal/png/horizontal_default.png)
-* [Alternate Version](horizontal/png/horizontal_alternative.png)
-* [Vector versions](horizontal/vector)
+
+##### Alternate
+
+* [PNG](horizontal/png/horizontal_alternative.png)
+* [SVG](horizontal/svg/horizontal_alternative.svg)
+* [EPS](horizontal/eps/horizontal_alternative.eps)
 
 ### Circular
 
 ![Default Circular thoughtbot logo](circle/png/robot_only_default.png)
-* [Alternate Version](circle/png/robot_only_alternative.png)
-* [Vector versions](circle/vector)
+
+##### Alternate
+
+* [PNG](circle/png/robot_only_alternative.png)
+* [SVG](circle/svg/robot_only_alternative.svg)
+* [EPS](circle/eps/robot_only_alternative.eps)
 
 ### Vertical
 
 ![Default Vertical thoughtbot logo](vertical/png/vertical_default.png)
-* [Alternate Version](vertical/png/vertical_alternative.png)
-* [Vector versions](vertical/vector)
+
+#####  Alternate
+
+* [PNG](vertical/png/vertical_alternative.png)
+* [SVG](vertical/svg/vertical_alternative.svg)
+* [EPS](vertical/eps/vertical_alternative.eps)
 
 ## Guidelines
 
