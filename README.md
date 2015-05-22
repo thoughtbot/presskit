@@ -47,6 +47,16 @@ Please reference this guide whenever you use thoughtbot assets.
 
 [Assets and Guidelines](http://thoughtbot.github.io/presskit)
 
+Social
+-----
+
+* AngelList: <https://angel.co/thoughtbot>
+* BuiltInChicago: <http://www.builtinchicago.org/company/thoughtbot>
+* Dribbble: <https://dribbble.com/thoughtbot>
+* Facebook: <https://www.facebook.com/thoughtbotinc>
+* Google+: <https://plus.google.com/102635181313464404735/posts>
+* Twitter: <https://twitter.com/thoughtbot>
+
 Copyright
 ---------
 
