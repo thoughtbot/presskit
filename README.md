@@ -15,7 +15,6 @@ connections.
 thoughtbot was founded in 2003 and has offices in
 Austin,
 Boston,
-Chicago,
 Denver,
 London,
 New York City,
@@ -51,7 +50,6 @@ Social
 -----
 
 * AngelList: <https://angel.co/thoughtbot>
-* BuiltInChicago: <http://www.builtinchicago.org/company/thoughtbot>
 * Dribbble: <https://dribbble.com/thoughtbot>
 * Facebook: <https://www.facebook.com/thoughtbotinc>
 * Google+: <https://plus.google.com/102635181313464404735/posts>
