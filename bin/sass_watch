@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sass --sourcemap=none --watch stylesheets/sass/base.scss:stylesheets/base.css

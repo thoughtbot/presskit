@@ -18,7 +18,6 @@ Boston,
 Denver,
 London,
 New York City,
-Philadelphia,
 Portland,
 Raleigh,
 San Francisco and
@@ -58,7 +57,12 @@ Social
 Copyright
 ---------
 
-Copyright 2015 thoughtbot, inc.
+Copyright 2016 thoughtbot, inc.
 
 The design of a robot and thoughtbot
 are registered trademarks of thoughtbot, inc.
+
+Edits to this repository
+-----
+
+This site uses Sass to compile to static CSS. Run `bin/sass_watch` from the root directory if you make changes to any Sass files to recompile the CSS while you edit.
