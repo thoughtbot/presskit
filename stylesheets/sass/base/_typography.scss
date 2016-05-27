@@ -1,0 +1,77 @@
+body {
+  background-color: $base-background-color;
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  -webkit-font-smoothing: antialiased;
+  line-height: $base-line-height;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $heading-font-color;
+  font-family: $heading-font-family;
+  font-weight: 300;
+  line-height: $heading-line-height;
+  margin: 0 0 1.2em;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-size: $base-font-size * 4; // 16 * 4 = 65px
+  color: $thoughtbot-red;
+}
+
+h2 {
+  font-size: $base-font-size * 2; // 16 * 2 = 32px
+  margin-bottom: $base-line-height * 0.8;
+}
+
+h3 {
+  font-size: $base-font-size * 1.125; // 16 * 1.125 = 18px
+  font-weight: 700;
+}
+
+h4 {
+  color: $medium-gray;
+  font-size: $base-font-size * 1.125; // 16 * 1.5 = 24px
+}
+
+h5 {
+  font-size: $base-font-size * 1.25; // 16 * 1.25 = 20px
+}
+
+h6 {
+  font-size: $base-font-size;
+}
+
+p {
+  color: $base-font-color;
+  font-size: $base-font-size * 1.25;
+  font-weight: 400;
+  margin: 0 0 1em; 
+}
+
+a {
+  color: $action-color;
+  text-decoration: none;
+  transition: color $base-duration $base-timing;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: shade($action-color, 25%);
+  }
+}
+
+hr {
+  border-bottom: $base-border;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  margin: $base-spacing 0;
+}

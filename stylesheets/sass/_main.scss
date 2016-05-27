@@ -1,0 +1,241 @@
+body {
+  border-top: solid 8px $thoughtbot-red;
+  padding-top: 130px;
+}
+
+header {
+  @include clearfix;
+  margin-bottom: 80px;
+}
+
+nav a {
+  color: $medium-gray;
+  display: inline-block;
+  font-family: $heading-font-family;
+  padding: 10px;
+  position: relative;
+  text-decoration: none;
+
+  &.active {
+    color: $thoughtbot-red;
+
+    &::before {
+      border-bottom: 8px solid transparent;
+      border-left: 8px solid $thoughtbot-red;
+      border-top: 8px solid transparent;
+      content: "";
+      height: 0;
+      left: -10px;
+      position: absolute;
+      top: 14px;
+      width: 0;
+    }
+  }
+}
+
+img {
+  margin-top: 30px;
+}
+
+.download-assets {
+  border-radius: 5px;
+  border: solid 1px currentColor;
+  color: $secondary-action-color;
+  display: inline-block;
+  font-family: $heading-font-family;
+  font-size: $large-font-size;
+  margin-top: 20px;
+  padding: 5px 10px 10px;
+
+  &:hover {
+    color: $secondary-action-color;
+    opacity: 0.8;
+  }
+
+  &::before {
+    @include position(relative, 3px null null null);
+    @include size(25px, 22px);
+    background-image: url("../images/download-icon.svg");
+    background-repeat: no-repeat;
+    background-size: 22px 25px;
+    content:"";
+    display: inline-block;
+    margin-right: 5px;
+  }
+}
+
+#signature {
+  display: block;
+  
+  h4 {
+    margin-bottom: 0;
+    margin-top: 50px;
+  }
+
+  .sans-logotype,
+  .stacked-vertical {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .sans-logotype {
+    margin-right: 130px;
+  }
+}
+
+#usage-guidelines {
+  h3 {
+    text-transform: uppercase;
+
+    &:first-of-type {
+      color: $thoughtbot-red;
+    }
+
+    &:nth-of-type(2n) {
+      color: $light-green;
+    }
+  }
+
+  ul {
+    margin: 15px 0 30px;
+
+    li {
+      list-style-type: disc;
+      list-style-position: inside;
+    }
+  }
+}
+
+#colors {
+  .primary-color-container,
+  .secondary-color-container {
+    margin-top: 50px;
+
+    .color-specs {
+      display: inline-block;
+      vertical-align: top;
+
+      h3,
+      h4,
+      hr {
+        margin: 0 0 20px 22px;
+      }
+    }
+  }
+
+  .primary-color-container {
+    .primary-color {
+      @include size(200px, 300px);
+      background: $thoughtbot-red;
+      display: inline-block;
+    }
+
+    .opacity-shifts {
+      display: inline-block;
+      margin-left: -4px;
+    }
+
+    .opacity-shift-1,
+    .opacity-shift-2,
+    .opacity-shift-3,
+    .opacity-shift-4,
+    .opacity-shift-5 {
+      @include size(60px);
+    }
+
+    .opacity-shift-1 {
+      background: lighten($thoughtbot-red, 5);
+    }
+
+    .opacity-shift-2 {
+      background: lighten($thoughtbot-red, 10);
+    }
+
+    .opacity-shift-3 {
+      background: lighten($thoughtbot-red, 15);
+    }
+
+    .opacity-shift-4 {
+      background: lighten($thoughtbot-red, 20);
+    }
+
+    .opacity-shift-5 {
+      background: lighten($thoughtbot-red, 25);
+    }
+  }
+
+  .secondary-color-container {
+    .secondary-color {
+      @include size(200px, 300px);
+      background: $thoughtbot-gray;
+      display: inline-block;
+    }
+
+    .opacity-shifts {
+      display: inline-block;
+      margin-left: -4px;
+    }
+
+    .opacity-shift-1,
+    .opacity-shift-2,
+    .opacity-shift-3,
+    .opacity-shift-4,
+    .opacity-shift-5 {
+      @include size(60px);
+    }
+
+    .opacity-shift-1 {
+      background: lighten($thoughtbot-gray, 5);
+    }
+
+    .opacity-shift-2 {
+      background: lighten($thoughtbot-gray, 10);
+    }
+
+    .opacity-shift-3 {
+      background: lighten($thoughtbot-gray, 15);
+    }
+
+    .opacity-shift-4 {
+      background: lighten($thoughtbot-gray, 20);
+    }
+
+    .opacity-shift-5 {
+      background: lighten($thoughtbot-gray, 25);
+    }
+  }
+
+}
+
+#typography {
+  h3 {
+    font-size: $base-font-size * 1.5;
+    line-height: $base-line-height;
+  }
+
+  .typeface-name {
+    margin: 30px 0 10px;
+  }
+
+  .uppercase,
+  .lowercase {
+    letter-spacing: 5px;
+  }
+
+  .uppercase {
+    text-transform: uppercase;
+  }
+
+  .header-typeface {
+    h3 {
+      font-weight: 500;
+    }
+  }
+
+  .body-typeface {
+    h3 {
+      font-family: $base-font-family;
+      font-weight: 500;
+    }
+  }
+}
