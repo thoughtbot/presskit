@@ -34,7 +34,7 @@ Name
 The public company name is "thoughtbot",
 all lowercase at all times including the beginning of a sentence.
 
-The legal company name in the US is "thoughtbot, inc.
+The legal company name in the US is "thoughtbot, inc."
 The legal company name in Sweden is "Thoughtbot Filial".
 
 Brand Assets & Guidelines
