@@ -64,6 +64,33 @@ img {
   }
 }
 
+.github {
+  border-radius: 5px;
+  border: solid 1px currentColor;
+  color: $medium-gray;
+  display: inline-block;
+  font-family: $heading-font-family;
+  font-size: $large-font-size;
+  margin-top: 20px;
+  padding: 5px 10px 10px;
+
+  &:hover {
+    color: $medium-gray;
+    opacity: 0.8;
+  }
+
+  &::before {
+    @include position(relative, 3px null null null);
+    @include size(25px, 22px);
+    background-image: url("../images/github.svg");
+    background-repeat: no-repeat;
+    background-size: 22px 25px;
+    content:"";
+    display: inline-block;
+    margin-right: 5px;
+  }
+}
+
 #signature {
   display: block;
   

@@ -293,6 +293,30 @@ img {
     display: inline-block;
     margin-right: 5px; }
 
+.github {
+  border-radius: 5px;
+  border: solid 1px currentColor;
+  color: #65666c;
+  display: inline-block;
+  font-family: "calluna-sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.25em;
+  margin-top: 20px;
+  padding: 5px 10px 10px; }
+  .github:hover {
+    color: #65666c;
+    opacity: 0.8; }
+  .github::before {
+    position: relative;
+    top: 3px;
+    height: 22px;
+    width: 25px;
+    background-image: url("../images/github.svg");
+    background-repeat: no-repeat;
+    background-size: 22px 25px;
+    content: "";
+    display: inline-block;
+    margin-right: 5px; }
+
 #signature {
   display: block; }
   #signature h4 {
