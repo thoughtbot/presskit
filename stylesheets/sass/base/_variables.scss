@@ -1,12 +1,20 @@
+// Bourbon settings
+$bourbon: (
+  "global-font-file-formats": ("woff2", "woff"),
+);
+
 // Breakpoints
 $medium-screen: 600px;
 $large-screen: 900px;
 
 // Typography
-$sans-serif: "calluna-sans", $font-stack-system;
-$serif: "freight-text-pro";
-$base-font-family: $serif;
+$sans-serif: "Calibre", $font-stack-system;
+$base-font-family: $sans-serif;
 $heading-font-family: $sans-serif;
+
+// Font Weights
+$regular-font-weight: 400;
+$medium-font-weight: 500;
 
 // Font Sizes
 $base-font-size: 1em;
@@ -17,25 +25,24 @@ $base-line-height: 1.5;
 $heading-line-height: 1.2;
 
 // Other Sizes
-$base-border-radius: 3px;
+$base-border-radius: 2px;
 $base-spacing: $base-line-height * 1em;
 $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
 // Colors
 $blue: #477dca;
-$dark-gray: #333;
-$medium-gray: #65666c;
-$light-gray: #ddd;
-$thoughtbot-red: #c52d2f;
-$thoughtbot-gray: #393b44;
+$dark-gray: #3d3e44;
+$medium-gray: #9b9aa1;
+$light-gray: #b5b5c0;
+$thoughtbot-red: #ed3e44;
+$thoughtbot-gray: #29292c;
 $light-green: #72ca11;
 
 // Font Colors
-$base-font-color: $medium-gray;
+$base-font-color: tint($thoughtbot-gray, 13%);
 $action-color: $thoughtbot-red;
-$heading-font-color: $dark-gray;
-$secondary-action-color: $blue;
+$heading-font-color: $thoughtbot-gray;
 
 // Border
 $base-border-color: $light-gray;

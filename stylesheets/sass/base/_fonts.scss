@@ -1,0 +1,19 @@
+@include font-face("Calibre", "../fonts/CalibreWeb-Regular") {
+  font-style: normal;
+  font-weight: $regular-font-weight;
+};
+
+@include font-face("Calibre", "../fonts/CalibreWeb-RegularItalic") {
+  font-style: italic;
+  font-weight: $regular-font-weight;
+};
+
+@include font-face("Calibre", "../fonts/CalibreWeb-Medium") {
+  font-style: normal;
+  font-weight: $medium-font-weight;
+};
+
+@include font-face("Calibre", "../fonts/CalibreWeb-MediumItalic") {
+  font-style: italic;
+  font-weight: $medium-font-weight;
+};

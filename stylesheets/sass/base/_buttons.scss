@@ -1,15 +1,15 @@
-#{$all-buttons} {
+@mixin button($color: $action-color) {
   appearance: none;
-  background-color: $action-color;
-  border: 0;
+  border: 2px solid $color;
   border-radius: $base-border-radius;
+  background-color: $color;
   color: #fff;
   cursor: pointer;
   display: inline-block;
   font-family: $base-font-family;
   font-size: $base-font-size;
   -webkit-font-smoothing: antialiased;
-  font-weight: 600;
+  font-weight: $medium-font-weight;
   line-height: 1;
   padding: $small-spacing $base-spacing;
   text-decoration: none;
@@ -20,16 +20,29 @@
 
   &:hover,
   &:focus {
-    background-color: shade($action-color, 20%);
-    color: #fff;
+    background-color: tint($color, 15%);
+    border-color: tint($color, 15%);
+    color: white;
   }
+}
 
-  &:disabled {
-    cursor: not-allowed;
-    opacity: 0.5;
+@mixin button--with-icon($color: $action-color) {
+  @include button($color);
+  margin-top: 20px;
+  padding: 2px 15px 10px 10px;
 
-    &:hover {
-      background-color: $action-color;
-    }
+  &::before {
+    @include position(relative, 3px null null null);
+    @include size(25px, 22px);
+    background-repeat: no-repeat;
+    background-size: 22px 25px;
+    content:"";
+    display: inline-block;
+    margin-right: 5px;
   }
+}
+
+#{$all-buttons},
+.button {
+  @include button;
 }

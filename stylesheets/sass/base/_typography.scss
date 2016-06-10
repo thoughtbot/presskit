@@ -15,34 +15,32 @@ h5,
 h6 {
   color: $heading-font-color;
   font-family: $heading-font-family;
-  font-weight: 300;
+  font-weight: $medium-font-weight;
   line-height: $heading-line-height;
   margin: 0 0 1.2em;
   text-rendering: optimizeLegibility;
 }
 
 h1 {
-  font-size: $base-font-size * 4; // 16 * 4 = 65px
+  font-size: $base-font-size * 3;
   color: $thoughtbot-red;
 }
 
 h2 {
-  font-size: $base-font-size * 2; // 16 * 2 = 32px
+  font-size: $base-font-size * 2;
   margin-bottom: $base-line-height * 0.8;
 }
 
 h3 {
-  font-size: $base-font-size * 1.125; // 16 * 1.125 = 18px
-  font-weight: 700;
+  font-size: $base-font-size * 1.125;
 }
 
 h4 {
-  color: $medium-gray;
-  font-size: $base-font-size * 1.125; // 16 * 1.5 = 24px
+  font-size: $base-font-size * 1.125;
 }
 
 h5 {
-  font-size: $base-font-size * 1.25; // 16 * 1.25 = 20px
+  font-size: $base-font-size * 1.25;
 }
 
 h6 {
@@ -52,8 +50,8 @@ h6 {
 p {
   color: $base-font-color;
   font-size: $base-font-size * 1.25;
-  font-weight: 400;
-  margin: 0 0 1em; 
+  font-weight: $regular-font-weight;
+  margin: 0 0 1em;
 }
 
 a {

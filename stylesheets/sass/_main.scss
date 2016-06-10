@@ -1,5 +1,5 @@
 body {
-  border-top: solid 8px $thoughtbot-red;
+  border-top: 8px solid $thoughtbot-red;
   padding-top: 130px;
 }
 
@@ -9,26 +9,22 @@ header {
 }
 
 nav a {
-  color: $medium-gray;
+  color: $base-font-color;
   display: inline-block;
-  font-family: $heading-font-family;
+  font-weight: $medium-font-weight;
   padding: 10px;
   position: relative;
   text-decoration: none;
 
+  &:focus,
+  &:hover,
   &.active {
     color: $thoughtbot-red;
 
     &::before {
-      border-bottom: 8px solid transparent;
-      border-left: 8px solid $thoughtbot-red;
-      border-top: 8px solid transparent;
+      @include position(absolute, 21px null null -10px);
+      @include triangle(right, $thoughtbot-red, 7px, 10px);
       content: "";
-      height: 0;
-      left: -10px;
-      position: absolute;
-      top: 14px;
-      width: 0;
     }
   }
 }
@@ -37,63 +33,25 @@ img {
   margin-top: 30px;
 }
 
-.download-assets {
-  border-radius: 5px;
-  border: solid 1px currentColor;
-  color: $secondary-action-color;
-  display: inline-block;
-  font-family: $heading-font-family;
-  font-size: $large-font-size;
-  margin-top: 20px;
-  padding: 5px 10px 10px;
-
-  &:hover {
-    color: $secondary-action-color;
-    opacity: 0.8;
-  }
+.button--download-assets {
+  @include button--with-icon;
 
   &::before {
-    @include position(relative, 3px null null null);
-    @include size(25px, 22px);
     background-image: url("../images/download-icon.svg");
-    background-repeat: no-repeat;
-    background-size: 22px 25px;
-    content:"";
-    display: inline-block;
-    margin-right: 5px;
   }
 }
 
-.github {
-  border-radius: 5px;
-  border: solid 1px currentColor;
-  color: $medium-gray;
-  display: inline-block;
-  font-family: $heading-font-family;
-  font-size: $large-font-size;
-  margin-top: 20px;
-  padding: 5px 10px 10px;
-
-  &:hover {
-    color: $medium-gray;
-    opacity: 0.8;
-  }
+.button--github {
+  @include button--with-icon($medium-gray);
 
   &::before {
-    @include position(relative, 3px null null null);
-    @include size(25px, 22px);
     background-image: url("../images/github.svg");
-    background-repeat: no-repeat;
-    background-size: 22px 25px;
-    content:"";
-    display: inline-block;
-    margin-right: 5px;
   }
 }
 
 #signature {
   display: block;
-  
+
   h4 {
     margin-bottom: 0;
     margin-top: 50px;
@@ -253,16 +211,17 @@ img {
     text-transform: uppercase;
   }
 
-  .header-typeface {
-    h3 {
-      font-weight: 500;
+  .regular-typeface {
+    h3,
+    p {
+      font-weight: $regular-font-weight;
     }
   }
 
-  .body-typeface {
-    h3 {
-      font-family: $base-font-family;
-      font-weight: 500;
+  .medium-typeface {
+    h3,
+    p {
+      font-weight: $medium-font-weight;
     }
   }
 }
