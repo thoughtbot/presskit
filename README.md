@@ -15,13 +15,11 @@ connections.
 thoughtbot was founded in 2003 and has offices in
 Austin,
 Boston,
-Denver,
 London,
 New York City,
-Portland,
 Raleigh,
 San Francisco and
-Stockholm.
+Washington, DC.
 
 Further descriptions of the company can be found in
 [DESCRIPTION.md](DESCRIPTION.md).
@@ -35,7 +33,7 @@ The public company name is "thoughtbot",
 all lowercase at all times including the beginning of a sentence.
 
 The legal company name in the US is "thoughtbot, inc."
-The legal company name in Sweden is "Thoughtbot Filial".
+The legal company name in the UK is "Thoughtbot Limited".
 
 Brand Assets & Guidelines
 -----
