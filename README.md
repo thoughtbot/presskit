@@ -63,7 +63,9 @@ are registered trademarks of thoughtbot, inc.
 Notes about this repository
 -----
 
-This site uses Sass to compile to static CSS. Run `bin/sass_watch` from the root directory if you make changes to any Sass files to recompile the CSS while you edit.
+This site uses Sass to compile to static CSS. Run `bin/sass_watch` from the root
+directory if you make changes to any Sass files to recompile the CSS while
+you edit.
 
 GitHub Pages is used to publish the site, which automatically deploys the
 `master` branch to <http://presskit.thoughtbot.com/>.
