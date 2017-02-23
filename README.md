@@ -65,4 +65,5 @@ Notes about this repository
 
 This site uses Sass to compile to static CSS. Run `bin/sass_watch` from the root directory if you make changes to any Sass files to recompile the CSS while you edit.
 
-The branch `gh-pages` is the default branch that will automatically deploy updates to the url <http://thoughtbot.github.io/presskit>
+GitHub Pages is used to publish the site, which automatically deploys the
+`master` branch to <http://presskit.thoughtbot.com/>.
