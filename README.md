@@ -1,4 +1,6 @@
-thoughtbot
+![thoughtbot](http://presskit.thoughtbot.com/images/thoughtbot-logo-for-readmes.svg)
+
+Press kit
 ==========
 
 Expert designers and developers who turn your idea into the right product.
