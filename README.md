@@ -1,6 +1,8 @@
 thoughtbot
 ==========
 
+![thoughtbot](http://presskit.thoughtbot.com/images/thoughtbot-logo-for-readmes.svg)
+
 Expert designers and developers who turn your idea into the right product.
 
 Clients hire us to solve problems for people. So, we interview potential
