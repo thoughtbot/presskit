@@ -19,9 +19,8 @@ Austin,
 Boston,
 London,
 New York City,
-Raleigh,
-San Francisco and
-Washington, DC.
+Raleigh, and
+San Francisco
 
 Further descriptions of the company can be found in
 [DESCRIPTION.md](DESCRIPTION.md).

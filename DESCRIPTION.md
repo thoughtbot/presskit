@@ -11,7 +11,7 @@ our offices with not much more than whiteboards, sticky notes, sketchbooks,
 laptops, phones, computer code, and good old human connections.
 
 thoughtbot was founded in 2003 and has offices in Boston, San Francisco, New
-York City, London, Raleigh, Austin, and Washington, DC.
+York City, London, Raleigh, and Austin.
 
 ## For startups
 
