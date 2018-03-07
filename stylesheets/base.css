@@ -11,14 +11,14 @@
   font-weight: 400; }
 @font-face {
   font-family: "Calibre";
-  src: url("../fonts/CalibreWeb-Medium.woff2") format("woff2"), url("../fonts/CalibreWeb-Medium.woff") format("woff");
+  src: url("../fonts/CalibreWeb-Semibold.woff2") format("woff2"), url("../fonts/CalibreWeb-Semibold.woff") format("woff");
   font-style: normal;
-  font-weight: 500; }
+  font-weight: 600; }
 @font-face {
   font-family: "Calibre";
-  src: url("../fonts/CalibreWeb-MediumItalic.woff2") format("woff2"), url("../fonts/CalibreWeb-MediumItalic.woff") format("woff");
+  src: url("../fonts/CalibreWeb-SemiboldItalic.woff2") format("woff2"), url("../fonts/CalibreWeb-SemiboldItalic.woff") format("woff");
   font-style: italic;
-  font-weight: 500; }
+  font-weight: 600; }
 button, [type='button'], [type='reset'], [type='submit'],
 .button {
   appearance: none;
@@ -31,7 +31,7 @@ button, [type='button'], [type='reset'], [type='submit'],
   font-family: "Calibre", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: 1em;
   -webkit-font-smoothing: antialiased;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1;
   padding: 0.75em 1.5em;
   text-decoration: none;
@@ -53,13 +53,13 @@ fieldset {
   padding: 0; }
 
 legend {
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 0.375em;
   padding: 0; }
 
 label {
   display: block;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 0.375em; }
 
 input,
@@ -186,7 +186,7 @@ h5,
 h6 {
   color: #29292c;
   font-family: "Calibre", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.2;
   margin: 0 0 1.2em;
   text-rendering: optimizeLegibility; }
@@ -266,7 +266,7 @@ header {
 nav a {
   color: #454547;
   display: inline-block;
-  font-weight: 500;
+  font-weight: 600;
   padding: 10px;
   position: relative;
   text-decoration: none; }
@@ -297,7 +297,7 @@ img {
   font-family: "Calibre", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: 1em;
   -webkit-font-smoothing: antialiased;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1;
   padding: 0.75em 1.5em;
   text-decoration: none;
@@ -335,7 +335,7 @@ img {
   font-family: "Calibre", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: 1em;
   -webkit-font-smoothing: antialiased;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1;
   padding: 0.75em 1.5em;
   text-decoration: none;
@@ -464,6 +464,6 @@ img {
 #typography .regular-typeface h3,
 #typography .regular-typeface p {
   font-weight: 400; }
-#typography .medium-typeface h3,
-#typography .medium-typeface p {
-  font-weight: 500; }
+#typography .semibold-typeface h3,
+#typography .semibold-typeface p {
+  font-weight: 600; }

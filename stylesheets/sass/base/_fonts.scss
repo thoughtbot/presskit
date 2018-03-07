@@ -8,12 +8,12 @@
   font-weight: $regular-font-weight;
 };
 
-@include font-face("Calibre", "../fonts/CalibreWeb-Medium") {
+@include font-face("Calibre", "../fonts/CalibreWeb-Semibold") {
   font-style: normal;
-  font-weight: $medium-font-weight;
+  font-weight: $semibold-font-weight;
 };
 
-@include font-face("Calibre", "../fonts/CalibreWeb-MediumItalic") {
+@include font-face("Calibre", "../fonts/CalibreWeb-SemiboldItalic") {
   font-style: italic;
-  font-weight: $medium-font-weight;
+  font-weight: $semibold-font-weight;
 };

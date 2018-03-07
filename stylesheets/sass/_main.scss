@@ -11,7 +11,7 @@ header {
 nav a {
   color: $base-font-color;
   display: inline-block;
-  font-weight: $medium-font-weight;
+  font-weight: $semibold-font-weight;
   padding: 10px;
   position: relative;
   text-decoration: none;
@@ -218,10 +218,10 @@ img {
     }
   }
 
-  .medium-typeface {
+  .semibold-typeface {
     h3,
     p {
-      font-weight: $medium-font-weight;
+      font-weight: $semibold-font-weight;
     }
   }
 }
