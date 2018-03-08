@@ -362,16 +362,16 @@ img {
   .button--github::before {
     background-image: url("../images/github.svg"); }
 
-#signature {
+#logo {
   display: block; }
-  #signature h4 {
+  #logo h4 {
     margin-bottom: 0;
     margin-top: 50px; }
-  #signature .sans-logotype,
-  #signature .stacked-vertical {
+  #logo .sans-logotype,
+  #logo .stacked-vertical {
     display: inline-block;
     vertical-align: top; }
-  #signature .sans-logotype {
+  #logo .sans-logotype {
     margin-right: 130px; }
 
 #usage-guidelines h3 {
