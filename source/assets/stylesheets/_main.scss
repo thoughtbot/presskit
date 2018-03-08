@@ -23,7 +23,7 @@ nav a {
 
     &::before {
       @include position(absolute, 21px null null -10px);
-      @include triangle(right, $thoughtbot-red, 7px, 10px);
+      @include triangle("right", 7px, 10px, $thoughtbot-red);
       content: "";
     }
   }

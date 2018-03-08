@@ -64,9 +64,25 @@ are registered trademarks of thoughtbot, inc.
 Notes about this repository
 -----
 
-This site uses Sass to compile to static CSS. Run `bin/sass_watch` from the root
-directory if you make changes to any Sass files to recompile the CSS while
-you edit.
+The presskit webpage is built with [Middleman]. To get started:
+
+1. Install the dependencies:
+
+    ```
+    bin/setup
+    ```
+
+1. Run the app:
+
+    ```
+    bundle exec middleman
+    ```
+
+    ```
+    open http://localhost:4567
+    ```
 
 GitHub Pages is used to publish the site, which automatically deploys the
-`master` branch to <http://presskit.thoughtbot.com/>.
+`gh-pages` branch to <http://presskit.thoughtbot.com/>.
+
+[Middleman]: https://middlemanapp.com/
