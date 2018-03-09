@@ -42,7 +42,7 @@ Brand Assets & Guidelines
 thoughtbot brand assets are available here.
 Please reference this guide whenever you use thoughtbot assets.
 
-[Assets and Guidelines](http://thoughtbot.github.io/presskit)
+[Assets and Guidelines](http://presskit.thoughtbot.com/)
 
 Social
 -----
