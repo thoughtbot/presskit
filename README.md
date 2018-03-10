@@ -56,7 +56,7 @@ Social
 Copyright
 ---------
 
-Copyright 2017 thoughtbot, inc.
+Copyright 2018 thoughtbot, inc.
 
 The design of a robot and thoughtbot
 are registered trademarks of thoughtbot, inc.
