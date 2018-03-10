@@ -1,0 +1,8 @@
+[build]
+  publish = "build"
+  command = "bundle exec middleman build --verbose"
+
+[[redirects]]
+  from = "/images/thoughtbot-logo-for-readmes.svg"
+  to = "/assets/images/thoughtbot-logo-for-readmes.svg"
+  status = 301
