@@ -12,7 +12,9 @@
       <%= yield %>
     </main>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <%= javascript_include_tag(
+      "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"
+    ) %>
     <%= javascript_include_tag "nav-active-class.js" %>
     <%= javascript_include_tag "smooth-scroll.js" %>
     <%= javascript_include_tag "sticky-nav.js" %>
