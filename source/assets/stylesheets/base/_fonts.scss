@@ -1,19 +1,23 @@
 @include font-face("Calibre", "../fonts/CalibreWeb-Regular") {
+  font-display: swap;
   font-style: normal;
   font-weight: $regular-font-weight;
 };
 
 @include font-face("Calibre", "../fonts/CalibreWeb-RegularItalic") {
+  font-display: swap;
   font-style: italic;
   font-weight: $regular-font-weight;
 };
 
 @include font-face("Calibre", "../fonts/CalibreWeb-Semibold") {
+  font-display: swap;
   font-style: normal;
   font-weight: $semibold-font-weight;
 };
 
 @include font-face("Calibre", "../fonts/CalibreWeb-SemiboldItalic") {
+  font-display: swap;
   font-style: italic;
   font-weight: $semibold-font-weight;
 };
