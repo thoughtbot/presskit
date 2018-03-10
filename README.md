@@ -82,7 +82,8 @@ The presskit webpage is built with [Middleman]. To get started:
     open http://localhost:4567
     ```
 
-GitHub Pages is used to publish the site, which automatically deploys the
-`gh-pages` branch to <http://presskit.thoughtbot.com/>.
+[Netlify] is used to publish the site, which automatically deploys the `master`
+branch to <http://presskit.thoughtbot.com/>.
 
 [Middleman]: https://middlemanapp.com/
+[Netlify]: https://www.netlify.com/
