@@ -95,16 +95,20 @@ img {
   .primary-color-container,
   .secondary-color-container {
     margin-top: 50px;
+  }
 
-    .color-specs {
-      display: inline-block;
-      vertical-align: top;
+  .color-specs {
+    display: inline-block;
+    font-size: $large-font-size;
+    vertical-align: top;
+    margin: 0 0 0 22px;
 
-      h3,
-      h4,
-      hr {
-        margin: 0 0 20px 22px;
-      }
+    dt {
+      font-weight: $semibold-font-weight;
+    }
+
+    dd {
+      margin-left: 0;
     }
   }
 

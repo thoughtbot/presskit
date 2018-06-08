@@ -50,15 +50,15 @@
       The thoughtbot logo elements should never be separated. Position, size, and color, along with the spatial and proportional relationships of the thoughtbot logo elements are predetermined and should not be altered.
     </p>
     <div class="logo">
-      <h4>The Logo (Default Horizontal)</h4>
+      <h3>The Logo (Default Horizontal)</h3>
       <%= image_tag "logo.svg", alt: "thoughtbot logo horizontal with logomark and logotype" %>
     </div>
     <div class="sans-logotype">
-      <h4>Sans-Logotype</h4>
+      <h3>Sans-Logotype</h3>
       <%= image_tag "sans-logotype.svg", alt: "thoughtbot logo with logomark only" %>
     </div>
     <div class="stacked-vertical">
-      <h4>Stacked Vertical</h4>
+      <h3>Stacked Vertical</h3>
       <%= image_tag "stacked-vertical.svg", alt: "thoughtbot logo vertical with logomark and logotype" %>
     </div>
   </section>
@@ -133,14 +133,13 @@
         <div class="opacity-shift-4"></div>
         <div class="opacity-shift-5"></div>
       </div>
-      <div class="color-specs">
-        <h3>Primary Color</h3>
-        <h4>rgb(237, 62, 68)</h4>
-        <h4>#ed3e44</h4>
-        <hr>
-        <h4>Pantone® P 48-8u*</h4>
-        <h4>cmyk(0, 99, 91, 0)</h4>
-      </div>
+      <dl class="color-specs">
+        <dt>Primary Color</dt>
+        <dd><code>#ed3e44</code></dd>
+        <dd><code>rgb(237, 62, 68)</code></dd>
+        <dd><code>cmyk(0, 99, 91, 0)</code></dd>
+        <dd>Pantone® P 48-8u*</dd>
+      </dl>
     </div>
     <div class="secondary-color-container">
       <div class="secondary-color"></div>
@@ -151,18 +150,17 @@
         <div class="opacity-shift-4"></div>
         <div class="opacity-shift-5"></div>
       </div>
-      <div class="color-specs">
-        <h3>Secondary Color</h3>
-        <h4>rgb(61, 62, 68)</h4>
-        <h4>#3d3e44</h4>
-        <hr>
-        <h4>Pantone® P 173-16u*</h4>
-        <h4>cmyk(62, 53, 42 ,60)</h4>
-      </div>
+      <dl class="color-specs">
+        <dt>Secondary Color</dt>
+        <dd><code>#3d3e44</code></dd>
+        <dd><code>rgb(61, 62, 68)</code></dd>
+        <dd><code>cmyk(62, 53, 42 ,60)</code></dd>
+        <dd>Pantone® P 173-16u*</dd>
+      </dl>
     </div>
-    <h4 class="color-notes">
+    <p>
       <small>* Uncoated Process (4 color printing on uncoated paper) is recommended for most printing applications.</small>
-    </h4>
+    </p>
   </section>
   <section id="typography">
     <h2>Typography</h2>
