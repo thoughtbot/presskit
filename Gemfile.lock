@@ -26,7 +26,7 @@ GEM
     erubis (2.7.0)
     execjs (2.7.0)
     fast_blank (1.0.0)
-    fastimage (2.1.1)
+    fastimage (2.1.4)
     ffi (1.9.25)
     haml (5.0.4)
       temple (>= 0.8.0)
