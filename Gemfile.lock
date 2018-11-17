@@ -114,7 +114,6 @@ DEPENDENCIES
   middleman (~> 4.3.0.rc4)
   middleman-autoprefixer
   middleman-minify-html
-  sass
 
 RUBY VERSION
    ruby 2.5.3p105
