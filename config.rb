@@ -1,8 +1,8 @@
 activate :autoprefixer
 
-set :css_dir, "assets/stylesheets"
-set :fonts_dir, "assets/fonts"
-set :images_dir, "assets/images"
+config[:css_dir] = "assets/stylesheets"
+config[:fonts_dir] = "assets/fonts"
+config[:images_dir] = "assets/images"
 
 configure :production do
   activate :gzip
