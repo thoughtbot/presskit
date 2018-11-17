@@ -6,3 +6,9 @@
   from = "/images/thoughtbot-logo-for-readmes.svg"
   to = "/assets/images/thoughtbot-logo-for-readmes.svg"
   status = 301
+
+[[redirects]]
+  from = "https://thoughtbot-presskit.netlify.com/*"
+  to = "https://presskit.thoughtbot.com/:splat"
+  status = 301
+  force = true
