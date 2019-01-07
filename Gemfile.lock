@@ -24,7 +24,7 @@ GEM
     erubis (2.7.0)
     execjs (2.7.0)
     fastimage (2.1.5)
-    ffi (1.9.25)
+    ffi (1.10.0)
     haml (5.0.4)
       temple (>= 0.8.0)
       tilt
@@ -91,7 +91,7 @@ GEM
     rb-inotify (0.10.0)
       ffi (~> 1.0)
     ruby_dep (1.5.0)
-    sass (3.7.2)
+    sass (3.7.3)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
