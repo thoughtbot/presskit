@@ -20,7 +20,7 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.4)
     contracts (0.16.0)
-    dotenv (2.5.0)
+    dotenv (2.6.0)
     erubis (2.7.0)
     execjs (2.7.0)
     fastimage (2.1.5)
@@ -119,4 +119,4 @@ RUBY VERSION
    ruby 2.5.3p105
 
 BUNDLED WITH
-   1.17.1
+   1.17.2
