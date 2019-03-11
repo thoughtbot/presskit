@@ -18,7 +18,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    concurrent-ruby (1.1.4)
+    concurrent-ruby (1.1.5)
     contracts (0.13.0)
     dotenv (2.7.1)
     erubis (2.7.0)
