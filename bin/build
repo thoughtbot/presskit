@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# bin/build: Generate the middleman site
+
+set -e
+
+bundle exec middleman build --verbose
