@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# bin/test: Run the htmlproofer suite
+
+set -e
+
+bundle exec htmlproofer ./build --check-html --check-favicon --disable-external
