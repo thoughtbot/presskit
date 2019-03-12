@@ -1,0 +1,29 @@
+version: 2
+
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:2.4.3-node
+
+    steps:
+      - checkout
+
+      - restore_cache:
+          key: presskit-{{ arch }}-{{ checksum "Gemfile.lock" }}
+
+      - run:
+          name: Install Ruby dependencies
+          command: bundle install --path vendor/bundle
+
+      - save_cache:
+          key: presskit-{{ arch }}-{{ checksum "Gemfile.lock" }}
+          paths:
+            - vendor/bundle
+
+      - run:
+          name: Build Middleman site
+          command: bin/build
+
+      - run:
+          name: Run HTMLProofer
+          command: bin/test
