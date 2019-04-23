@@ -74,7 +74,7 @@ We write in easy-to-understand words and phrases with a broad audience in mind. 
 
 Casual and lighthearted writing is often sprinkled into our communications. We enjoy puns and wordplay. We embrace getting nerdy. When appropriate, we use a more serious or authoritative tone.
 We are serious about what we do but have fun in the process - this should come through to the audience. We encourage thoughtbotters' personal voices and brands to shine through (while remaining professional, of course).
-**How we write**
+#### How we write
 * It's ok to write a short sentence that is grammatically incorrect if it's easily understandable in modern vernacular.
 * We often use contractions that make for shorter, easy to read, and conversational writing.
 * Typically we do not use words for numbers. Instead of "three," we write "3".
