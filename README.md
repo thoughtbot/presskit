@@ -56,7 +56,7 @@ Social
 ## Voice & Tone
 
 ### Voice
-**Who we are**
+#### Who we are
 * Professionals who are friendly and accessible
 * Experts who are eager to teach you what they know
 * Continuous learners who are open to new and different points of view
