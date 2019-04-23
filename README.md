@@ -70,7 +70,7 @@ We speak in a way that is conversational but professional, rather than academic 
 **Our writing**
 We write in easy-to-understand words and phrases with a broad audience in mind. This sometimes means breaking up sentences and paragraphs to optimize for readability. If you can't comfortably read a sentence out loud, it probably needs a more simple rewrite.
 ### Tone
-**How we speak**
+#### How we speak
 
 Casual and lighthearted writing is often sprinkled into our communications. We enjoy puns and wordplay. We embrace getting nerdy. When appropriate, we use a more serious or authoritative tone.
 We are serious about what we do but have fun in the process - this should come through to the audience. We encourage thoughtbotters' personal voices and brands to shine through (while remaining professional, of course).
