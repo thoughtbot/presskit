@@ -67,7 +67,7 @@ Social
 #### Our formality
 We speak in a way that is conversational but professional, rather than academic or enterprisey. Whenever possible, we cut out jargon. Our audience should feel like we are speaking to them personally.
 
-**Our writing**
+#### Our writing
 We write in easy-to-understand words and phrases with a broad audience in mind. This sometimes means breaking up sentences and paragraphs to optimize for readability. If you can't comfortably read a sentence out loud, it probably needs a more simple rewrite.
 ### Tone
 #### How we speak
