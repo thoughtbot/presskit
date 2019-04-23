@@ -64,7 +64,7 @@ Social
 * Embrace teaching by example and being transparent
 * The sum of our parts - a collection of creative, smart, kind, thoughtful people
 
-**Our formality**
+#### Our formality
 We speak in a way that is conversational but professional, rather than academic or enterprisey. Whenever possible, we cut out jargon. Our audience should feel like we are speaking to them personally.
 
 **Our writing**
