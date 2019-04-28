@@ -38,9 +38,24 @@
       externally. Please reference this guide whenever you use these assets
       to ensure that they are used correctly.
     </p>
-    <a class="button--download-guide" href="https://images.thoughtbot.com/presskit/thoughtbot-brand-guidelines.pdf">Download Brand Guide</a>
-    <a class="button--download-assets" href="assets/thoughtbot-assets-pack.zip">Download Assets Pack</a>
-    <a class="button--github" href="https://github.com/thoughtbot/presskit">View on GitHub</a>
+
+    <%= link_to(
+      "Download Brand Guide",
+      "https://images.thoughtbot.com/presskit/thoughtbot-brand-guidelines.pdf",
+      class: "tbds-button",
+    ) %>
+
+    <%= link_to(
+      "Download Assets Pack",
+      "assets/thoughtbot-assets-pack.zip",
+      class: "tbds-button",
+    ) %>
+
+    <%= link_to(
+      "View on GitHub",
+      "https://github.com/thoughtbot/presskit",
+      class: "tbds-button",
+    ) %>
   </section>
   <section id="logo">
     <h2>The Logo</h2>

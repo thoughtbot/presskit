@@ -2,10 +2,11 @@
 
 @import "normalize.css/normalize";
 
+@import "@thoughtbot/design-system/src/index";
+
 @import "base/variables";
 @import "base/fonts";
 
-@import "base/buttons";
 @import "base/layout";
 @import "base/lists";
 @import "base/media";

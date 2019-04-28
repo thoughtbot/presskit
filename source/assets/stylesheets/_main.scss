@@ -34,30 +34,6 @@ img {
   margin-top: 30px;
 }
 
-.button--download-assets {
-  @include button--with-icon($medium-gray);
-
-  &::before {
-    background-image: url("../images/download-icon.svg");
-  }
-}
-
-.button--download-guide {
-  @include button--with-icon;
-
-  &::before {
-    background-image: url("../images/download-icon.svg");
-  }
-}
-
-.button--github {
-  @include button--with-icon($medium-gray);
-
-  &::before {
-    background-image: url("../images/github.svg");
-  }
-}
-
 #logo {
   display: block;
 
