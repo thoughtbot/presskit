@@ -122,42 +122,9 @@ img {
 
   .primary-color-container {
     .primary-color {
-      @include size(200px, 300px);
+      @include size(260px, 300px);
       background: $thoughtbot-red;
       display: inline-block;
-    }
-
-    .opacity-shifts {
-      display: inline-block;
-      margin-left: -4px;
-    }
-
-    .opacity-shift-1,
-    .opacity-shift-2,
-    .opacity-shift-3,
-    .opacity-shift-4,
-    .opacity-shift-5 {
-      @include size(60px);
-    }
-
-    .opacity-shift-1 {
-      background: lighten($thoughtbot-red, 5);
-    }
-
-    .opacity-shift-2 {
-      background: lighten($thoughtbot-red, 10);
-    }
-
-    .opacity-shift-3 {
-      background: lighten($thoughtbot-red, 15);
-    }
-
-    .opacity-shift-4 {
-      background: lighten($thoughtbot-red, 20);
-    }
-
-    .opacity-shift-5 {
-      background: lighten($thoughtbot-red, 25);
     }
   }
 
@@ -175,33 +142,22 @@ img {
 
     .opacity-shift-1,
     .opacity-shift-2,
-    .opacity-shift-3,
-    .opacity-shift-4,
-    .opacity-shift-5 {
-      @include size(60px);
+    .opacity-shift-3 {
+      @include size(60px, 100px);
     }
 
     .opacity-shift-1 {
-      background: lighten($thoughtbot-gray, 5);
+      background: $thoughtbot-medium-gray;
     }
 
     .opacity-shift-2 {
-      background: lighten($thoughtbot-gray, 10);
+      background: $thoughtbot-light-gray;
     }
 
     .opacity-shift-3 {
-      background: lighten($thoughtbot-gray, 15);
-    }
-
-    .opacity-shift-4 {
-      background: lighten($thoughtbot-gray, 20);
-    }
-
-    .opacity-shift-5 {
-      background: lighten($thoughtbot-gray, 25);
+      background: $thoughtbot-ultralight-gray;
     }
   }
-
 }
 
 #typography {
