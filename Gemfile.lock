@@ -10,7 +10,7 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     autoprefixer-rails (9.5.1.1)
       execjs
-    backports (3.14.0)
+    backports (3.15.0)
     bourbon (5.1.0)
       sass (~> 3.4)
       thor (~> 0.19)
