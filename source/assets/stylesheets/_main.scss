@@ -11,6 +11,7 @@ header {
 nav a {
   color: $base-font-color;
   display: inline-block;
+  font-family: $sans-serif;
   font-weight: $semibold-font-weight;
   padding: 10px;
   position: relative;
@@ -90,6 +91,7 @@ img {
   }
 
   ul {
+    font-size: $base-font-size * 1.125;
     margin: 15px 0 30px;
 
     li {
