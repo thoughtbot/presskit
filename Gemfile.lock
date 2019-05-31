@@ -29,7 +29,7 @@ GEM
     fast_blank (1.0.0)
     fastimage (2.1.5)
     ffi (1.11.1)
-    haml (5.1.0)
+    haml (5.1.1)
       temple (>= 0.8.0)
       tilt
     hamster (3.0.0)
