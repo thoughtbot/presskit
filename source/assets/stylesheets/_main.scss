@@ -1,5 +1,5 @@
 body {
-  border-top: 8px solid $thoughtbot-red;
+  border-top: 8px solid $ralph;
   padding-top: 130px;
 }
 
@@ -19,11 +19,11 @@ nav a {
   &:focus,
   &:hover,
   &.active {
-    color: $thoughtbot-red;
+    color: $ralph;
 
     &::before {
       @include position(absolute, 21px null null -10px);
-      @include triangle("right", 7px, 10px, $thoughtbot-red);
+      @include triangle("right", 7px, 10px, $ralph);
       content: "";
     }
   }
@@ -81,7 +81,7 @@ img {
     text-transform: uppercase;
 
     &:first-of-type {
-      color: $thoughtbot-red;
+      color: $ralph;
     }
 
     &:nth-of-type(2n) {
@@ -99,65 +99,79 @@ img {
   }
 }
 
-#colors {
-  .primary-color-container,
-  .secondary-color-container {
-    margin-top: 50px;
+.color-title {
+  font-weight: 300;
+  margin-top: 40px;
+}
+
+.palette-container {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.color-specs {
+  font-size: $large-font-size;
+  vertical-align: top;
+  margin: 10px 0 0 0;
+
+  dt {
+    font-weight: $semibold-font-weight;
   }
 
-  .color-specs {
-    display: inline-block;
-    font-size: $large-font-size;
-    vertical-align: top;
-    margin: 0 0 0 22px;
-
-    dt {
-      font-weight: $semibold-font-weight;
-    }
-
-    dd {
-      margin-left: 0;
-    }
+  dd {
+    margin-left: 0;
   }
+}
 
-  .primary-color-container {
-    .primary-color {
-      @include size(260px, 300px);
-      background: $thoughtbot-red;
-      display: inline-block;
-    }
-  }
+.ralph-color-block {
+  @include size(320px, 180px);
+  background: $ralph;
+  display: inline-block;
+}
 
-  .secondary-color-container {
-    .secondary-color {
-      @include size(200px, 300px);
-      background: $thoughtbot-gray;
-      display: inline-block;
-    }
+.renee-color-block {
+  @include size(240px, 180px);
+  background: $thoughtbot-gray;
+  display: inline-block;
+}
 
-    .opacity-shifts {
-      display: inline-block;
-      margin-left: -4px;
-    }
+.jean-color-block {
+  @include size(180px, 180px);
+  background: $jean;
+  display: inline-block;
+}
 
-    .opacity-shift-1,
-    .opacity-shift-2,
-    .opacity-shift-3 {
-      @include size(60px, 100px);
-    }
+.alphie-color-block {
+  @include size(180px, 180px);
+  background: $alphie;
+  display: inline-block;
+}
 
-    .opacity-shift-1 {
-      background: $thoughtbot-medium-gray;
-    }
+.opacity-shifts {
+  display: inline-block;
+  margin-left: -4px;
+}
 
-    .opacity-shift-2 {
-      background: $thoughtbot-light-gray;
-    }
+.opacity-shift-1,
+.opacity-shift-2,
+.opacity-shift-3 {
+  @include size(80px, 60px);
+}
 
-    .opacity-shift-3 {
-      background: $thoughtbot-ultralight-gray;
-    }
-  }
+.opacity-shift-1 {
+  background: $thoughtbot-medium-gray;
+}
+
+.opacity-shift-2 {
+  background: $thoughtbot-light-gray;
+}
+
+.opacity-shift-3 {
+  background: $thoughtbot-ultralight-gray;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 #typography {
@@ -175,9 +189,9 @@ img {
     letter-spacing: 5px;
   }
 
-  .uppercase {
-    text-transform: uppercase;
-  }
+  // .uppercase {
+  //   text-transform: uppercase;
+  // }
 
   .regular-typeface {
     h3,
