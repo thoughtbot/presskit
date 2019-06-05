@@ -121,7 +121,7 @@ img {
 .color-specs {
   font-size: $large-font-size;
   vertical-align: top;
-  margin: 10px 0 0 0;
+  margin: 10px 0 0;
 
   dt {
     font-weight: $semibold-font-weight;
@@ -143,6 +143,7 @@ img {
   .renee-medium {
     color: $renee-medium;
   }
+
   .renee-ultralight{
     color: $renee-ultralight;
   }
