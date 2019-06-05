@@ -113,6 +113,11 @@ img {
   margin-right: 100px;
 }
 
+.renee-details-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .color-specs {
   font-size: $large-font-size;
   vertical-align: top;
@@ -127,6 +132,22 @@ img {
   }
 }
 
+.color-specs-names {
+  font-size: $base-font-size;
+  text-align: right;
+
+  .renee-light {
+    color: $renee-light;
+  }
+
+  .renee-medium {
+    color: $renee-medium;
+  }
+  .renee-ultralight{
+    color: $renee-ultralight;
+  }
+}
+
 .ralph-color-block {
   @include size(320px, 180px);
   background: $ralph;
@@ -135,7 +156,7 @@ img {
 
 .renee-color-block {
   @include size(240px, 180px);
-  background: $thoughtbot-gray;
+  background: $renee;
   display: inline-block;
 }
 
@@ -160,18 +181,27 @@ img {
 .opacity-shift-2,
 .opacity-shift-3 {
   @include size(80px, 60px);
+  position: relative;
 }
 
 .opacity-shift-1 {
-  background: $thoughtbot-medium-gray;
+  background: $renee-medium;
 }
 
 .opacity-shift-2 {
-  background: $thoughtbot-light-gray;
+  background: $renee-light;
 }
 
 .opacity-shift-3 {
-  background: $thoughtbot-ultralight-gray;
+  background: $renee-ultralight;
+}
+
+.opacity-shift-text {
+  bottom: 0;
+  color: $white;
+  font-size: $base-font-size;
+  margin: 0 0 5px 10px;
+  position: absolute;
 }
 
 .uppercase {
@@ -192,10 +222,6 @@ img {
   .lowercase {
     letter-spacing: 5px;
   }
-
-  // .uppercase {
-  //   text-transform: uppercase;
-  // }
 
   .regular-typeface {
     h3,

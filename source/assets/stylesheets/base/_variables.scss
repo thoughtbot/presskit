@@ -30,23 +30,24 @@ $base-spacing: $base-line-height * 1em;
 $small-spacing: $base-spacing / 2;
 
 // Colors
+$white: #ffffff;
 $blue: #477dca;
 $dark-gray: #3d3e44;
 $medium-gray: #9b9aa1;
 $light-gray: #b5b5c0;
 $ralph: #e03131;
-$thoughtbot-gray: #29292c;
-$thoughtbot-medium-gray: #353539;
-$thoughtbot-light-gray: #4e4e53;
-$thoughtbot-ultralight-gray: #67676e;
+$renee: #29292c;
+$renee-medium: #353539;
+$renee-light: #4e4e53;
+$renee-ultralight: #67676e;
 $jean: #0b758c;
 $alphie: #f3adad;
 $light-green: #72ca11;
 
 // Font Colors
-$base-font-color: tint($thoughtbot-gray, 13%);
+$base-font-color: tint($renee, 13%);
 $action-color: $ralph;
-$heading-font-color: $thoughtbot-gray;
+$heading-font-color: $renee;
 
 // Border
 $base-border-color: $light-gray;
