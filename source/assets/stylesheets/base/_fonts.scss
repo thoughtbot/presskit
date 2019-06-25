@@ -1,23 +1,41 @@
-@include font-face("Calibre", "../fonts/CalibreWeb-Regular") {
+@include font-face("Calibre", "//images.thoughtbot.com/presskit/fonts/CalibreWeb-Light") {
+  font-display: swap;
+  font-style: normal;
+  font-weight: $light-font-weight;
+};
+
+@include font-face("Calibre", "//images.thoughtbot.com/presskit/fonts/CalibreWeb-Regular") {
   font-display: swap;
   font-style: normal;
   font-weight: $regular-font-weight;
 };
 
-@include font-face("Calibre", "../fonts/CalibreWeb-RegularItalic") {
+@include font-face("Calibre", "//images.thoughtbot.com/presskit/fonts/CalibreWeb-RegularItalic") {
   font-display: swap;
   font-style: italic;
   font-weight: $regular-font-weight;
 };
 
-@include font-face("Calibre", "../fonts/CalibreWeb-Semibold") {
+@include font-face("Calibre", "//images.thoughtbot.com/presskit/fonts/CalibreWeb-Semibold") {
   font-display: swap;
   font-style: normal;
   font-weight: $semibold-font-weight;
 };
 
-@include font-face("Calibre", "../fonts/CalibreWeb-SemiboldItalic") {
+@include font-face("Calibre", "//images.thoughtbot.com/presskit/fonts/CalibreWeb-SemiboldItalic") {
   font-display: swap;
   font-style: italic;
   font-weight: $semibold-font-weight;
+};
+
+@include font-face("Tiempos", "//images.thoughtbot.com/presskit/fonts/TiemposTextWeb-Regular") {
+  font-display: swap;
+  font-style: normal;
+  font-weight: $regular-font-weight;
+};
+
+@include font-face("Tiempos", "//images.thoughtbot.com/presskit/fonts/TiemposTextWeb-RegularItalic") {
+  font-display: swap;
+  font-style: italic;
+  font-weight: $regular-font-weight;
 };

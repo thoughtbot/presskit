@@ -9,11 +9,14 @@ $large-screen: 900px;
 
 // Typography
 $sans-serif: "Calibre", $font-stack-system;
-$base-font-family: $sans-serif;
+$serif: "Tiempos", $font-stack-georgia;
 $heading-font-family: $sans-serif;
+$base-font-family: $serif;
 
 // Font Weights
+$light-font-weight: 300;
 $regular-font-weight: 400;
+$medium-font-weight: 500;
 $semibold-font-weight: 600;
 
 // Font Sizes

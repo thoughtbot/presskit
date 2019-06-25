@@ -11,6 +11,7 @@ header {
 nav a {
   color: $base-font-color;
   display: inline-block;
+  font-family: $sans-serif;
   font-weight: $semibold-font-weight;
   padding: 10px;
   position: relative;
@@ -90,6 +91,7 @@ img {
   }
 
   ul {
+    font-size: $base-font-size * 1.125;
     margin: 15px 0 30px;
 
     li {
@@ -161,35 +163,44 @@ img {
 }
 
 #typography {
+  .typeface-container {
+    margin: 30px 0px;
+  }
+
   h3 {
     font-size: $base-font-size * 1.5;
     line-height: $base-line-height;
   }
 
-  .typeface-name {
-    margin: 30px 0 10px;
+  .serif {
+    font-family: $serif;
   }
 
-  .uppercase,
-  .lowercase {
-    letter-spacing: 5px;
+  .italic {
+    font-style: italic;
+  }
+
+  .typeface-name {
+    margin: 10px 0px;
   }
 
   .uppercase {
     text-transform: uppercase;
   }
 
+  .light-typeface {
+    font-weight: $light-font-weight;
+  }
+
+  .medium-typeface {
+    font-weight: $medium-font-weight;
+  }
+
   .regular-typeface {
-    h3,
-    p {
-      font-weight: $regular-font-weight;
-    }
+    font-weight: $regular-font-weight;
   }
 
   .semibold-typeface {
-    h3,
-    p {
-      font-weight: $semibold-font-weight;
-    }
+    font-weight: $semibold-font-weight;
   }
 }
