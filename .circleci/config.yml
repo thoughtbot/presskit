@@ -9,19 +9,21 @@ jobs:
       - checkout
 
       - restore_cache:
-          key: presskit-{{ arch }}-{{ checksum "Gemfile.lock" }}
+          keys:
+            - presskit-bundle-v2-{{ checksum "Gemfile.lock" }}
+            - presskit-bundle-v2-
 
       - run:
-          name: Install Ruby dependencies
+          name: Install gem dependencies
           command: bundle install --path vendor/bundle
 
       - save_cache:
-          key: presskit-{{ arch }}-{{ checksum "Gemfile.lock" }}
+          key: presskit-bundle-v2-{{ checksum "Gemfile.lock" }}
           paths:
             - vendor/bundle
 
       - run:
-          name: Build Middleman site
+          name: Build the Middleman site
           command: bin/build
 
       - run:
