@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# bin/build: Generate the middleman site
+# Build the Middleman site
 
 set -e
 
