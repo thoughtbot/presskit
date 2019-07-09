@@ -11,9 +11,6 @@ GEM
     autoprefixer-rails (9.6.0)
       execjs
     backports (3.15.0)
-    bourbon (5.1.0)
-      sass (~> 3.4)
-      thor (~> 0.19)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -107,11 +104,6 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
-    sass (3.7.4)
-      sass-listen (~> 4.0.0)
-    sass-listen (4.0.0)
-      rb-fsevent (~> 0.9, >= 0.9.4)
-      rb-inotify (~> 0.9, >= 0.9.7)
     sassc (2.0.1)
       ffi (~> 1.9)
       rake
@@ -132,7 +124,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bourbon
   html-proofer
   middleman
   middleman-autoprefixer
