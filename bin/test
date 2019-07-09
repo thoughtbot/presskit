@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# bin/test: Run the htmlproofer suite
+# Run HTMLProofer
 
 set -e
 

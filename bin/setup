@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Run this script to setup the app
+# Set up the Middleman app
 
 # Exit if any subcommand fails
 set -e
