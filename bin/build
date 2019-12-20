@@ -1,7 +1,0 @@
-#!/bin/sh
-
-# Build the Middleman site
-
-set -e
-
-bundle exec middleman build --verbose

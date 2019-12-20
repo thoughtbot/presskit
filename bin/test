@@ -1,7 +1,0 @@
-#!/bin/sh
-
-# Run HTMLProofer
-
-set -e
-
-bundle exec htmlproofer ./build --check-html --check-favicon --disable-external
