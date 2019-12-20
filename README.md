@@ -1,4 +1,4 @@
-# Press kit
+# presskit.thoughtbot.com
 
 This repository is no longer used. Instead, the brand guidelines are kept in the
 [brand area] of the playbook, within the handbook repository. There are redirect
