@@ -1,14 +1,10 @@
-[build]
-  publish = "build"
-  command = "bundle exec middleman build --verbose"
-
 [[redirects]]
   from = "/images/thoughtbot-logo-for-readmes.svg"
-  to = "/assets/images/thoughtbot-logo-for-readmes.svg"
+  to = "https://thoughtbot.com/brand_assets/93:44.svg"
   status = 301
 
 [[redirects]]
-  from = "https://thoughtbot-presskit.netlify.com/*"
-  to = "https://presskit.thoughtbot.com/:splat"
+  from = "/*"
+  to = "https://thoughtbot.com/playbook/our-company/brand"
   status = 301
   force = true
